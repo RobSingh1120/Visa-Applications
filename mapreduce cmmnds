@@ -1,0 +1,30 @@
+Q-1A) 
+  hadoop jar h1b.jar Q1ADataEngineerJob /user/hive/warehouse/h1b.db/h1b_final /H1bProject/Mapreduce/Q1ADataEngineerJob
+ hadoop fs -cat /H1bProject/Mapreduce/Q1ADataEngineerJob/p*
+o/p>> Data Engineer Average Growth For Five Years	68.809146570
+
+
+================================================================================================================
+
+
+Q-4)
+hadoop jar h1b.jar Q4_Top5Employers  /user/hive/warehouse/h1b.db/h1b_final /H1bProject/Mapreduce/Q4Top5Employers ALL
+hadoop fs -cat /H1bProject/Mapreduce/Q4Top5Employers/p*
+
+
+=========================================================================
+Q-7)
+hadoop jar h1b.jar Q7_NoOfApplicationEachYear  /user/hive/warehouse/h1b.db/h1b_final /H1bProject/Mapreduce/Q7_NoOfApplicationEachYear ALL
+hadoop fs -cat /H1bProject/Mapreduce/Q7_NoOfApplicationEachYear/p*
+
+
+=============================================================================
+Q-8 A)
+hadoop jar h1b.jar Q8A_AvgPrWageForEachJobForEachYearFullTime  /user/hive/warehouse/h1b.db/h1b_final /H1bProject/Mapreduce/Q8A_AvgPrWageForEachJobForEachYearFullTime ALL
+hadoop fs -cat /H1bProject/Mapreduce/Q8A_AvgPrWageForEachJobForEachYearFullTime/p*
+
+================================
+Q-8 B)
+hadoop jar h1b.jar Q8B_AvgPrWageForEachJobForEachYearPartTime  /user/hive/warehouse/h1b.db/h1b_final /H1bProject/Mapreduce/Q8B_AvgPrWageForEachJobForEachYearPartTime ALL
+hadoop fs -cat /H1bProject/Mapreduce/Q8B_AvgPrWageForEachJobForEachYearPartTime/p*
+
